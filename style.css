@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #acacad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contnainer {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px auto 400px;
+    gap: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar {
+    /* border: 1px solid red; */
+}
+
+.navbar_header_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    /* border: 1px solid yellowgreen; */
+}
+
+.logo {
+    border-radius: 8px;
+    height: auto;
+    width: 20%;
+    /* border: 1px solid blueviolet; */
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    /* border: 1px solid blueviolet; */
+}
+
+.mel {
+    color: #f96a03;
+}
+
+.none {
+    height: none;
+    width: none;
+    /* border: 1px solid blueviolet; */
+}
+
+.navbar_header_two {
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_dashboard :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_utilisateurs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_utilisateurs :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_historique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_historique :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_analyse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_analyse :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_tickets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_tickets :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_ventes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_ventes :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_rapports {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_rapports :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_parametres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_parametres :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_connexion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_connexion :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar_deconnexion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 400px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.navbar_deconnexion :hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo_header_two {
+    height: auto;
+    width: 18%;
+    /* border: 1px solid blueviolet; */
+}
+
+.name_header_two {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    /* border: 1px solid blueviolet; */
+}
+
+.none_header_two {
+    height: none;
+    width: none;
+    /* border: 1px solid blueviolet; */
+}
+
+
+.analyse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.logo_analyse {
+    height: auto;
+    width: 18%;
+    /* border: 1px solid blueviolet; */
+}
+
+.name_analyse {
+    font-size: 15px;
+    color: rgb(134, 74, 254);
+}
+
+.none_analyse {
+    height: none;
+    width: none;
+    /* border: 1px solid blueviolet; */
+}
+
+.main {
+/* border: 1px solid blue; */
+}
+
+.main_analyses {
+display: flex;
+border: 1px solid white;
+}
+
+.main_analyses_bas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid yellow;
+}
+
+.main_ventes{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+}
+
+.main_visites{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+}
+
+.main_recherches{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+}
+
+.main_logo{
+    height: auto;
+    width: 18%;
+    border: 2px solid salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aside {
+    border: 1px solid rgb(255, 208, 0);
+}
