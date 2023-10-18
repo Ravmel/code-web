@@ -218,59 +218,82 @@ body {
     /* border: 1px solid blueviolet; */
 }
 
+.main {
+    margin-top: 15px;
+    /* border: 1px solid blue; */
+}
 
-.analyse {
+/* .analyse {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    /* border: 1px solid yellowgreen; */
-}
+    /* border: 1px solid yellowgreen; 
+} */
 
-.logo_analyse {
+/* .logo_analyse {
     height: auto;
     width: 18%;
-    /* border: 1px solid blueviolet; */
-}
+    /* border: 1px solid blueviolet; 
+} */
 
-.name_analyse {
+/* .name_analyse {
     font-size: 15px;
     color: rgb(134, 74, 254);
-}
+} */
 
-.none_analyse {
+/* .none_analyse {
     height: none;
     width: none;
-    /* border: 1px solid blueviolet; */
-}
-
-.main {
-/* border: 1px solid blue; */
-}
+    /* border: 1px solid blueviolet; 
+} */
 
 .main_analyses {
-display: flex;
-border: 1px solid white;
+    /* display: flex; */
+    /* border: 1px solid white; */
 }
 
-.main_analyses_bas{
+.main_analyses_bas {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid yellow;
+    margin-top: 28px;
+    /* border: 1px solid yellow; */
 }
 
-.main_ventes{
+.main_card {
+    /* height: 100%; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* margin-top: 28px; */
+    height: 350px;
+    width: 30%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding: 30px;
     background-color: aliceblue;
-    border-radius: 10px;
-    border: 1px solid yellowgreen;
+    border-radius: 30px;
+    border: 2px solid yellowgreen;
 }
 
-.main_visites{
+/* .main_card_logo{
+    /* height: auto; 
+    width: 100%;
+    border: 2px solid salmon;
+} */
+
+.main_logo {
+    /* height: auto; */
+    width: 20%;
+    border-radius: 100px;
+    border: 2px solid salmon;
+}
+
+/* .main_visites{
     background-color: aliceblue;
     border-radius: 10px;
     border: 1px solid yellowgreen;
@@ -280,31 +303,29 @@ border: 1px solid white;
     background-color: aliceblue;
     border-radius: 10px;
     border: 1px solid yellowgreen;
+} */
+
+.n_u {
+    margin-top: 40px;
+    /* border: 1px solid rgb(252, 0, 252); */
 }
 
-.main_logo{
-    height: auto;
-    width: 18%;
-    border: 2px solid salmon;
+.bloc_white_one {
+    background-color: aliceblue;
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.c_r {
+    margin-top: 50px;
+    background-color: aliceblue;
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
 
 .aside {
     border: 1px solid rgb(255, 208, 0);
