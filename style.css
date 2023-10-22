@@ -22,6 +22,9 @@ body {
 }
 
 .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     /* border: 1px solid red; */
 }
 
@@ -219,36 +222,12 @@ body {
 }
 
 .main {
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: 15px; */
     /* border: 1px solid blue; */
 }
-
-/* .analyse {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* border: 1px solid yellowgreen; 
-} */
-
-/* .logo_analyse {
-    height: auto;
-    width: 18%;
-    /* border: 1px solid blueviolet; 
-} */
-
-/* .name_analyse {
-    font-size: 15px;
-    color: rgb(134, 74, 254);
-} */
-
-/* .none_analyse {
-    height: none;
-    width: none;
-    /* border: 1px solid blueviolet; 
-} */
 
 .main_analyses {
     /* display: flex; */
@@ -259,7 +238,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 28px;
+    /* margin-top: 28px; */
     /* border: 1px solid yellow; */
 }
 
@@ -269,7 +248,7 @@ body {
     justify-content: space-between;
     align-items: center;
     /* margin-top: 28px; */
-    height: 350px;
+    height: 250px;
     width: 30%;
     padding-left: 30px;
     padding-top: 30px;
@@ -277,7 +256,7 @@ body {
     padding: 30px;
     background-color: aliceblue;
     border-radius: 30px;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
 
 /* .main_card_logo{
@@ -288,45 +267,180 @@ body {
 
 .main_logo {
     /* height: auto; */
-    width: 20%;
+    width: 30%;
     border-radius: 100px;
-    border: 2px solid salmon;
-}
 
-/* .main_visites{
-    background-color: aliceblue;
-    border-radius: 10px;
-    border: 1px solid yellowgreen;
+    /* border: 2px solid salmon; */
 }
-
-.main_recherches{
-    background-color: aliceblue;
-    border-radius: 10px;
-    border: 1px solid yellowgreen;
-} */
 
 .n_u {
-    margin-top: 40px;
+    /* margin-top: 40px; */
+
     /* border: 1px solid rgb(252, 0, 252); */
 }
 
+.new {
+    font-size: 2rem;
+}
+
 .bloc_white_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* margin-top: 50px; */
     background-color: aliceblue;
-    height: 350px;
+    height: 285px;
     width: 100%;
     border-radius: 20px;
     text-align: center;
+
+    /* border: 1px solid red; */
+}
+
+.bloc_white_one_image {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* border: 1px solid #f96a03; */
+}
+
+.item_img {
+    border-radius: 100px;
+
+    /* border: 1px solid salmon; */
+}
+
+.bloc_white_one_name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    /* border: 1px solid #f96a03; */
 }
 
 .c_r {
-    margin-top: 50px;
-    background-color: aliceblue;
+    /* margin-top: 50px; */
+    /* background-color: aliceblue;
     height: 350px;
     width: 100%;
     border-radius: 20px;
-    text-align: center;
+    text-align: center; */
+}
+
+.commande {
+    font-size: 2rem;
 }
 
 .aside {
-    border: 1px solid rgb(255, 208, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid rgb(255, 208, 0); */
+}
+
+.aside_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid violet; */
+}
+
+.jour_nuit {
+    border-radius: 10px;
+    /* border: 1px solid orangered; */
+}
+
+.aside_header_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+
+    /* border: 1px solid rgb(255, 154, 3); */
+}
+
+.jack {
+    font-weight: bolder;
+}
+
+.admin {
+    margin-top: 5px;
+}
+
+.avatar {
+    border-radius: 100px;
+    /* border: 1px solid orangered; */
+}
+
+.aside_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    /* border: 1px solid rgb(255, 0, 255); */
+}
+
+.logo_body {
+    margin-top: 50px;
+    height: 100px;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+.pra {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.tuto {
+    margin-top: 5px;
+}
+
+.aside_footer{
+    /* border: 1px solid rgb(86, 7, 86); */
+}
+
+.rappel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+
+.notification {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.atelier{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.atelier_one{
+    display: flex;
+    height: 80px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+    font-weight: bolder;
+    border-radius: 20px;
 }
